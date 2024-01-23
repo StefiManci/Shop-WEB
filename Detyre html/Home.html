@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/store.png">
+</head>
+<body>
+  <style>
+    body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  </style>
+  
+  <video autoplay muted loop id="myVideo" style="z-index: 0;">
+    <source src="./images/Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+  </video>
+  <nav style="position: relative;">
+    <div class="logo">
+        <span id="logo-text">BuyAnything</span>
+    </div>
+    <div class="menu-item">
+        <a href="./Detyre.html"><button type="button" class="button-home">Home</button></a>
+    </div>
+    <div class="menu-item">
+        <a href="./Category.html"><button type="button" class="button-home">Shop</button></a>
+    </div>
+    <div class="menu-item">
+      <a href="./about.html"><button type="button" class="button-home">About</button></a>
+    </div>
+    <div class="menu-item">
+        <a href="./Home.html"><button type="button" class="button-home">Register</button></a>
+    </div>
+    <div class="menu-item">
+      <a href="./contact.html"><button type="button" class="button-home">Contact</button></a>
+    </div>
+</nav>
+  <div class="page">
+    <div style="z-index: 1;">
+      <h1 class="title-1">Registration</h1>
+    </div>
+    <div id="Form" style="z-index: 1;">
+        <div id="input">
+        <form action="./Second.html" method="post" >
+            <label for="username" class="label">Username</label>
+            <input type="text" id="username" name="username" required><br></br>
+            
+            <label for="email" class="label">Email</label>
+            <input type="text" id="email" name="email" required><br></br>
+      
+            <label for="password" class="label">Password</label>
+            <input type="password" id="password" name="password" required><br></br>
+      
+            <label for="firstname" class="label">Firstname</label>
+            <input type="text" id="firstname" name="firstname" required><br></br>
+      
+            <label for="lastname" class="label">Lastname</label>
+            <input type="text" id="lastname" name="lastname" required><br></br>
+          
+            <label class="label">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" class="label">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" class="label">Female</label><br></br>
+      
+            <label for="city" class="label">City</label>
+            <select name="city" id="city">
+              <option value="Tirane">Tirane</option>
+              <option value="Berat">Berat</option>
+              <option value="Durres">Durres</option>
+              <option value="Diber">Diber</option>
+              <option value="Kukes">Kukes</option>
+              <option value="Puke">Puke</option>
+              <option value="Fier">Fier</option>
+              <option value="Sarande">Sarande</option>
+              <option value="Vlore">Vlore</option>
+              <option value="Peshkopi">Peshkopi</option>
+              <option value="Lac">Lac</option>
+              <option value="Gjirokaster">Gjirokaster</option>
+              <option value="Tropoje">Tropoje</option>
+              <option value="Lushnje">Lushnje</option>
+              <option value="Korce">Korce</option>
+              <option value="Ballsh">Ballsh</option>
+              <option value="Elbasan">Elbasan</option>
+      
+            </select><br></br>
+          <a href="./Detyre.html"><button class="submit-button" type="submit" value="submit">SUBMIT</button></a>
+      </form>
+      </div>
+    </div>
+    </div>
+
+</body>
+</html>

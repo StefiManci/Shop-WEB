@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+        fieldset {
+            border-radius: 20px;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: bisque;
+            font-size: medium;
+            border: 5px solid #e0b17a;
+            margin: 50px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        legend {
+            border-radius: 20%;
+            padding: 11px;
+            font-family: fantasy;
+            background-color: bisque;
+            font-size: large;
+        }
+        div {
+            text-align: left;
+            padding: 20px;
+            background-color: #f4ebe1;
+        }
+        p {
+            background-color: rgb(255, 255, 255);
+            font-size: small;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #8dd08f;
+            color: rgb(0, 0, 0);
+            width: 100%;
+        }
+            
+    </style>
+    </head>
+    <body>
+        <fieldset>
+        <legend>Shopping online</legend>
+        <div>
+        <p>To continue with buying process,please fill out the form below</p>
+        <br>
+        <form>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+
+            <label for="Country">Country:</label>
+            <select id="Country">
+                <option value="Albania">Albania</option>
+                <option value="Spain">Spain</option>
+                <option value="Italy">Italy</option>
+                <option value="Germany">Germany</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="France">France</option>
+                <option value="Croatia">Croatia</option>
+            </select><br><br><br>
+            
+             <label>Choose the products:</label><br>
+             <hr>
+             <input type="checkbox" id="women">Luxury Shampoo & Conditioner<br>
+             <input type="checkbox" id="women">Affordable Shampoo & Conditioner<br>
+             <input type="checkbox" id="women">Shampoo for Protective Styles<br>
+             <input type="checkbox" id="women">The Ordinary<br>
+             <input type="checkbox" id="women">Clean Face Mask<br>
+             <input type="checkbox" id="women">Dark Circle Brightening Eye Cream<br>
+             <input type="checkbox" id="women">Oil therapy body lotion<br>
+             <input type="checkbox" id="women">Lait corporel body butter<br>
+             <input type="checkbox" id="women">After-shave emulsion<br><br>
+            
+            <hr>
+            <label>Set the amount:</label>
+            <input type="number" id="number"><br><br>
+    
+            <label>Payment:</label><br><hr>
+        <input type="radio" id="debit" name="pagesa" value="debit">
+        <label for="debit">Debit Card</label><br>
+        <input type="radio" id="credit" name="pagesa" value="credit">
+        <label for="credit">Credit Card</label><br><br><br>
+
+            <label>Card's details:</label><br><hr>
+            <label for="name">Name*</label>
+            <input type="text" id="name" required><br><br>
+            <label for="number">Card's number</label>
+            <input type="number" id="number" required><br><br>
+            <label for="expiration">Expire date*</label>
+            <input type="date" id="expiration" required>&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="cvs">CVC*</label>
+            <input type="password" id="cvc" required><br><br>
+
+        </form>
+        <a href="End.html"><button type="submit">SUBMIT</button></a>
+        </div>
+        </fieldset>
+    </body>
+</html>

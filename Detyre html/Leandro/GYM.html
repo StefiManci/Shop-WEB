@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+        fieldset {
+            border-radius: 20px;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: bisque;
+            font-size: medium;
+            border: 5px solid #e0b17a;
+            margin: 50px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        legend {
+            border-radius: 20%;
+            padding: 11px;
+            font-family: fantasy;
+            background-color: bisque;
+            font-size: large;
+        }
+        div {
+            text-align: left;
+            padding: 20px;
+            background-color: #f4ebe1;
+        }
+        p {
+            background-color: rgb(255, 255, 255);
+            font-size: small;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #8dd08f;
+            color: rgb(0, 0, 0);
+            width: 100%;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <fieldset>
+        <legend>Detaje mbi blerjen</legend>
+        <div>
+        <p>Per te vazhduar procesin e blerjes, ju lutem plotesoni formularin e meposhtem</p>
+        <br>
+        <form>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+
+            <label for="Country">Shteti:</label>
+            <select id="Country">
+                <option value="Albania">Albania</option>
+                <option value="Kosovo">Kosovo</option>
+                <option value="North Macedonia">North Macedonia</option>
+                <option value="Montenegro">Montenegro</option>
+                <option value="Greece">Greece</option>
+                <option value="Italy">Italy</option>
+                <option value="Germany">Germany</option>
+            </select><br><br>
+
+            <hr>
+            <br>
+
+            <label>Selektoni mbi ngjyren e preferuar:</label>
+            <input type="color" id="blackColorPicker"><br><br><br>
+
+            <label>Menyra e pageses:</label><br><hr>
+            <input type="radio" id="debit" name="pagesa" value="debit">
+            <label for="debit">Debit Card</label><br>
+            <input type="radio" id="credit" name="pagesa" value="credit">
+            <label for="credit">Credit Card</label><br><br><br>
+
+            <label>Te dhenat e kartes:</label><br><hr>
+            <label for="emri">Emri mbi karte*</label>
+            <input type="text" id="emri" required><br><br>
+            <label for="numri">Numri i Kartes*</label>
+            <input type="number" id="numri" required><br><br>
+            <label for="expiration">Skadimi*</label>
+            <input type="date" id="expiration" required>&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="cvs">CVC*</label>
+            <input type="password" id="cvc" required><br><br>
+
+        </form>
+        <a href="../Nensi/Fund.html"><button type="submit">Kryej porosine</button></a>
+        </div>
+        </fieldset>
+    </body>
+</html>
